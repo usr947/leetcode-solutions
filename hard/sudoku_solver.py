@@ -1,1 +1,0 @@
-print("Hard: Sudoku Solver")

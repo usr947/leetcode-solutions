@@ -1,1 +1,0 @@
-print("Easy: Two Sum")
