@@ -1,0 +1,11 @@
+class Solution(object):
+    def isPalindrome(self, x):
+          x = str(x)
+          left = 0#declaring left pointer
+          right = len(x)-1#declaring right pointer
+          while left < right :
+                if x[left] != x[right]:
+                      return False
+                left += 1
+                right -= 1
+          return True 
