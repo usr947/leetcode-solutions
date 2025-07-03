@@ -16,8 +16,9 @@ Each solution includes:
 ---
 
 ✅ Problems Solved So Far:
-- Easy: 1
-- Medium: 0
-- Hard: 0
+- Easy: 4
+- Medium: 6
+- Hard: 2
+- Streak : 3
 
 🧠 I update this daily as I grow!
