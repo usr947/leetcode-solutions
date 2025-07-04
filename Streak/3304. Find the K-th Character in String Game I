@@ -1,3 +1,14 @@
 class Solution:
     def kthCharacter(self, k: int) -> str:
-        return chr(ord('a') + bin(k - 1).count('1'))
+        def dfs(k):
+            if k == 1:
+                return 'a'
+            length = 1
+            level = 0
+            while length < k:
+                level += 1
+                length = length * 2
+            prev_char = dfs(k - length // 2)
+            return chr(ord(prev_char) + 1)
+        
+        return dfs(k)
